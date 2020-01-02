@@ -1,0 +1,35 @@
+# temp files from editors
+*~
+*.bak
+.DS_Store
+.buildpath
+.project
+.settings
+*.tmproj
+build
+.idea
+nbproject/
+
+# hidden files created by Windows
+Thumbs.db
+desktop.ini
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+/.elasticbeanstalk/
+
+# Application files
+.env
+*.csv
+
+# Hide the mounted out mysql data and logs folders
+logs/
+data/
+
+**/node_modules/**
+html/assets/manage/
+html/assets/admin/
+themes/admin/css/
+themes/admin/js/*.js

@@ -1,0 +1,4 @@
+fuel/core
+fuel/vendor
+**/node_modules/**
+.git
